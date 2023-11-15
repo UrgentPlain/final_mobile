@@ -138,7 +138,7 @@ class _MakeupProductsScreenState extends State<MakeupProductsScreen> {
                         maxCrossAxisExtent: 350, // กำหนดขนาดสูงสุดของแกนที่แนวนอน
                         crossAxisSpacing: 5.0,
                         mainAxisSpacing: 5.0,
-                        childAspectRatio: 0.7, // กำหนดสัดส่วนของแต่ละช่องใน GridView
+                        childAspectRatio: 0.6, // กำหนดสัดส่วนของแต่ละช่องใน GridView
                       ),
                       itemCount: snapshot.data!.length,
                       itemBuilder: (context, index) {
